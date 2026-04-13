@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кейс 2 — Счётчик</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="app">
+        <section class="counter-card">
+            <p class="eyebrow">Кейс-задача № 2</p>
+            <h1>Стилизованный счётчик</h1>
+            <p class="subtitle">Изменяйте значение кнопками и отслеживайте состояние результата.</p>
+
+            <div class="result result--zero" id="result" aria-live="polite">0</div>
+
+            <div class="controls">
+                <button class="control-button control-button--minus" id="decrement" type="button">Минус</button>
+                <button class="control-button control-button--plus" id="increment" type="button">Плюс</button>
+            </div>
+
+            <div class="status-message" id="status-message" aria-live="polite"></div>
+        </section>
+    </main>
+</body>
+</html>
